@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
-import logo from './assets/tulum.png';
+import logo from './assets/tulum_logo.svg';
 import './App.css';
+
+import Burritos from './burritos/BurritoMenu';
+import Tacos from './tacos/Tacos';
 
 class App extends Component {
   render() {
@@ -10,9 +13,28 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           {/* <h1 className="App-title">Tulum</h1> */}
         </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+        <hr />
+        <h1 className='menu-title'>Menu</h1>
+        <Burritos />
+        <Tacos />
+        {/* <div className='menu'>
+          <h1 className='menu-title'>Menu</h1>
+          <div className='burritos'>
+
+          </div>
+
+
+          <div className='tacos'>
+
+
+          </div>
+
+          <div className='creations'>
+
+
+          </div>
+
+        </div> */}
       </div>
     );
   }

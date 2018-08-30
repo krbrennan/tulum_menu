@@ -1,0 +1,85 @@
+/* * {
+  margin: 0 auto;
+  padding: 0;
+} */
+
+.burrito-menu {
+  border-radius: 12px;
+  margin: 0 auto;
+  justify-content: center;
+  max-width: 90%;
+  border: 0.5px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.burrito-title {
+  display: flex;
+  flex-direction: row;
+  border-bottom: .5px solid black;
+  border-radius: 14px;
+}
+
+
+.the-word-burritos {
+  width: 50%;
+}
+
+.the-word-burritos h2 {
+  font-size: 4em;
+}
+
+.burrito-description {
+  max-width: 60%;
+  width: 50%;
+  margin-left: 2em;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  border-left: 0.5px solid black;
+}
+.burrito-description h3 {
+  margin: 0 auto;
+  padding: 1em;
+}
+.choice-of {
+  font-weight: 600;
+  padding: .5em;
+
+}
+
+.burrito-list {
+  max-width: 100%;
+  margin: 0 auto;
+  /* background: yellow; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.comes-with {
+  padding-top: 1em;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.box {
+  border: .5px dotted black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 40%;
+  /* min-width: 50%; */
+  /* max-width: 50%; */
+}
+
+.burrito-name {
+  margin-left: 2em;
+}
+
+.burrito-ingredients {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 1.5em;
+}
